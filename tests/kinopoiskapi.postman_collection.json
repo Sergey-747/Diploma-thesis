@@ -1,0 +1,489 @@
+{
+  "info": {
+    "_postman_id": "d4472653-a9fc-4bbe-9c73-03b80ce6f60e",
+    "name": "kinopoiskapi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52910997",
+    "_collection_link": "https://go.postman.co/collection/52910997-d4472653-a9fc-4bbe-9c73-03b80ce6f60e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Получение медиа-новостей",
+      "request": {
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "key",
+              "value": "X-API-KEY",
+              "type": "string"
+            },
+            {
+              "key": "value",
+              "value": "78bbc602-ff7d-4d49-ba0f-fc444db31987",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-KEY",
+            "value": "78bbc602-ff7d-4d49-ba0f-fc444db31987"
+          }
+        ],
+        "url": {
+          "raw": "https://kinopoiskapiunofficial.tech/api/v1/media_posts",
+          "protocol": "https",
+          "host": [
+            "kinopoiskapiunofficial",
+            "tech"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "media_posts"
+          ],
+          "query": [
+            {
+              "key": "BazeURL",
+              "value": "https://kinopoiskapiunofficial.tech/",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "GET media_posts",
+          "originalRequest": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-API-KEY",
+                "value": "78bbc602-ff7d-4d49-ba0f-fc444db31987"
+              }
+            ],
+            "url": {
+              "raw": "https://kinopoiskapiunofficial.tech/api/v1/media_posts",
+              "protocol": "https",
+              "host": [
+                "kinopoiskapiunofficial",
+                "tech"
+              ],
+              "path": [
+                "api",
+                "v1",
+                "media_posts"
+              ],
+              "query": [
+                {
+                  "key": "BazeURL",
+                  "value": "https://kinopoiskapiunofficial.tech/",
+                  "disabled": true
+                }
+              ]
+            }
+          },
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "server",
+              "value": "nginx/1.24.0 (Ubuntu)"
+            },
+            {
+              "key": "date",
+              "value": "Thu, 17 Sep 2026 12:52:42 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json"
+            },
+            {
+              "key": "transfer-encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "vary",
+              "value": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers"
+            },
+            {
+              "key": "content-encoding",
+              "value": "gzip"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"total\": 3712,\n  \"totalPages\": 186,\n  \"items\": [\n    {\n      \"kinopoiskId\": 4008943,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/a879121a01ae7416afac04e2061521d5/orig\",\n      \"title\": \"«Общество снега»: кино о голодающих в Андах регбистах, которое претендует на «Оскар»\",\n      \"description\": \"«Общество снега» на Netflix — драма выживания, претендующая на «Оскар». Это история уругвайских регбистов, попавших в авиакатастрофу и оказавшихся в заснеженных горах. Рассказываем, чем же они там питались.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008943\",\n      \"publishedAt\": \"2024-01-09T12:35:22\"\n    },\n    {\n      \"kinopoiskId\": 4008942,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/febea36efadae58362d6c59d39464218/orig\",\n      \"title\": \"S.T.A.L.K.E.R. 2, Suicide Squad и Hades 2. Какие игры мы ждем в 2024 году\",\n      \"description\": \"Марат Шабаев и Вадим Елистратов обсуждают самые ожидаемые игры 2024 года: Suicide Squad: Kill the Justice League, S.T.A.L.K.E.R. 2: Heart of Chornobyl, Senua's Saga: Hellblade II, Star Wars Outlaws, Hades 2, Final Fantasy VII Rebirth, Prince of Persia: The Lost Crown, Warhammer 40K: Space Marine 2, Little Nightmares III, The Last of Us Part II: Remastered.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008942\",\n      \"publishedAt\": \"2024-01-09T15:28:21\"\n    },\n    {\n      \"kinopoiskId\": 4008944,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/f65b50b98b0970a011c48a1366dfb33f/orig\",\n      \"title\": \"Рекорд «По щучьему велению», успехи «Ивана Васильевича» и спецэпизодов: что смотрели на Кинопоиске в новогодние каникулы\",\n      \"description\": \"Праздничные дни с Кинопоиском провели более 10 миллионов подписчиков Плюса.  \",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008944\",\n      \"publishedAt\": \"2024-01-10T09:41:50\"\n    },\n    {\n      \"kinopoiskId\": 4008945,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/ed58097c4a13ea62df95288115a95084/orig\",\n      \"title\": \"10 эпизодов, которые сделали «Сопрано» величайшим сериалом в истории\",\n      \"description\": \"25 лет назад, 10 января 1999 года, на HBO вышла первая серия «Сопрано» — сериала, который навсегда изменил телевидение. Мы выбрали 10 лучших эпизодов, которые превратили драму про гангстера с паническими атаками в величайшее шоу в истории.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008945\",\n      \"publishedAt\": \"2024-01-10T12:24:40\"\n    },\n    {\n      \"kinopoiskId\": 4008946,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/879158/7010f98056e8bf5b6ec16bbbbaf229ba/orig\",\n      \"title\": \"«Властелины воздуха»: что мы знаем о будущей крупнобюджетной военной драме Стивена Спилберга и Тома Хэнкса\",\n      \"description\": \"26 января на Apple TV+ выходит мини-сериал «Властелины воздуха», за который отвечают Стивен Спилберг, Том Хэнкс и Гари Гетцман — троица, которая участвовала в создании «Братьев по оружию» и «Тихого океана». В главных ролях снялись Остин Батлер, Барри Кеоган, Каллум Тернер и Энтони Бойл. Вот что известно о проекте.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008946\",\n      \"publishedAt\": \"2024-01-10T13:20:52\"\n    },\n    {\n      \"kinopoiskId\": 4008948,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/1bde7fd433f16ea4c1c0677ae79677a4/orig\",\n      \"title\": \"Спортивная драма «Крецул» — теперь на Кинопоиске. Вот что о ней рассказал актер Сергей Волков\",\n      \"description\": \"11 января на Кинопоиске вышла биографическая драма «Крецул» о дзюдоисте, потерявшем зрение и вернувшемся в спорт благодаря настойчивому тренеру. Актер Сергей Волков — о своем герое и дружбе с Никитой Волковым (однофамильцем). \",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008948\",\n      \"publishedAt\": \"2024-01-11T09:34:19\"\n    },\n    {\n      \"kinopoiskId\": 4008947,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/82dfe8736c459e336364d259a22cc558/orig\",\n      \"title\": \"Как удаленные сцены могли изменить «Звездные войны»\",\n      \"description\": \"Какие сцены Джордж Лукас решил удалить из «Звездных войн»? Разбираемся в нашем видеоэссе.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008947\",\n      \"publishedAt\": \"2024-01-11T11:12:06\"\n    },\n    {\n      \"kinopoiskId\": 4008950,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1101343/8a81fa2aeb34172f0f0933d9db98c318/orig\",\n      \"title\": \"«Стальная хватка»: cлишком образцовая трагикомедия про братьев-рестлеров\",\n      \"description\": \"Может ли претендовать на «Оскар» «Стальная хватка» Шона Дуркина? О достоинствах и недоработках рестлерской мелодрамы с раскачанными  Заком Эфроном, Джереми Алленом Уайтом и Харрисом Дикинсоном рассказывает Станислав Зельвенский.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008950\",\n      \"publishedAt\": \"2024-01-11T11:27:52\"\n    },\n    {\n      \"kinopoiskId\": 4008949,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/a5dde7efbcd6a6f85e6790e143bbec2f/orig\",\n      \"title\": \"Что смотреть дома: «Убийцы цветочной луны», «Трепачи» и хоккей с Ильей Ковальчуком\",\n      \"description\": \"Плюшевый медведь-хулиган Тед возвращается, а киновселенная Marvel прирастает «Эхом». «Убийцы цветочной луны» и неожиданное аниме в духе арабских сказок. Эти и другие премьеры недели на российских и зарубежных стримингах.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008949\",\n      \"publishedAt\": \"2024-01-11T12:16:49\"\n    },\n    {\n      \"kinopoiskId\": 4008951,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/879158/271eb6aced3e2d8010d6724e7c64990c/orig\",\n      \"title\": \"Какие экранизации мы ждем в 2024 году\",\n      \"description\": \"В этом материале собрали самые ожидаемые экранизации 2024 года — фильмы, сериалы и мультфильмы, снятые по книгам. Нас ждут «Дюна: Часть вторая» с Тимоти Шаламе и Зендеей, сериал «Задача трех тел» от создателей «Игры престолов», аниме по «Властелину колец», новый фильм Пон Джун-хо с Робертом Паттинсоном и другие новинки.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008951\",\n      \"publishedAt\": \"2024-01-11T14:50:43\"\n    },\n    {\n      \"kinopoiskId\": 4008954,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/fd4c744bd62568f626e280cd2c7e7f53/orig\",\n      \"title\": \"«Эхо»: блеклый отголосок «Сорвиголовы»\",\n      \"description\": \"\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008954\",\n      \"publishedAt\": \"2024-01-12T09:06:22\"\n    },\n    {\n      \"kinopoiskId\": 4008952,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/fa8aaa3d125279a14d12f0200e96decf/orig\",\n      \"title\": \"Российские онлайн-кинотеатры: чем они могут гордиться и какие вызовы их ждут в 2024 году\",\n      \"description\": \"Okko, Premier, Kion, Wink, «Иви», Start, Кинопоиск — что удалось сделать российским стримингам в 2023 году и что они будут делать дальше.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008952\",\n      \"publishedAt\": \"2024-01-12T09:25:49\"\n    },\n    {\n      \"kinopoiskId\": 4008953,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/fa3813e99e4bb99f301d7d0808e3904f/orig\",\n      \"title\": \"Команда «Стальной хватки» — о тренажерах 1980-х, трагедии рестлинга и готическом хорроре. Да, на самом деле это он!\",\n      \"description\": \"Режиссер «Стальной хватки» Шон Дуркин и актеры Зак Эфрон, Джереми Аллен Уайт и Стэнли Саймонс рассказывают, как снимались бои и сколько железа пришлось им жать на тренировках.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008953\",\n      \"publishedAt\": \"2024-01-12T10:58:33\"\n    },\n    {\n      \"kinopoiskId\": 4008957,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/7047ad85aa9c70acfe2f194c2c4ea925/orig\",\n      \"title\": \"Итоги «новогодней битвы» — 2024: богатыри, холопы, музыканты\",\n      \"description\": \"В прокате завершилась «новогодняя битва» — последние уик-энды декабря и январские каникулы. Рассказываем об их цифрах и рекордах.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008957\",\n      \"publishedAt\": \"2024-01-12T11:10:06\"\n    },\n    {\n      \"kinopoiskId\": 4008955,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/7e367546367d6a67f84e946e4c568223/orig\",\n      \"title\": \"Как работает камера в играх и чем отличается от киношной\",\n      \"description\": \"В этом видеоэссе обсуждаем, какой бывает камера в видеоиграх, какие функции она выполняет и как типы камеры (вид сбоку, вид сверху, вид от первого лица и вид от третьего лица) связаны с жанром игры.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008955\",\n      \"publishedAt\": \"2024-01-13T10:19:29\"\n    },\n    {\n      \"kinopoiskId\": 4008960,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/5394945/ab220a73fe04fbd82914e0a6134905fb/orig\",\n      \"title\": \"Умер Лев Рубинштейн. Вспоминаем его и его слова о жизни, счастье, памяти и свободе\",\n      \"description\": \"14 января ушел из жизни Лев Рубинштейн — российский поэт, литературный критик, публицист, эссеист, один из основателей московского концептуализма (вместе с Дмитрием Приговым и Всеволодом Некрасовым), лауреат премии «НОС» и премии Андрея Белого. Кинопоиск собрал любимые цитаты из его книг.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008960\",\n      \"publishedAt\": \"2024-01-14T15:43:03\"\n    },\n    {\n      \"kinopoiskId\": 4008962,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/82c1c61efb5e9fd9e793e893f27455cf/orig\",\n      \"title\": \"15 деталей из «Солтберна», на которые важно обратить внимание. Там было два Джейкоба Элорди!\",\n      \"description\": \"Фильм Эмиральд Феннел «Солтберн» с Барри Кеоганом и Джейкобом Элорди в главных ролях продолжают бурно обсуждать в социальных сетях. Мы еще раз внимательно его пересмотрели и нашли 15 важных деталей, на которые нужно обратить внимание. \",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008962\",\n      \"publishedAt\": \"2024-01-15T13:24:55\"\n    },\n    {\n      \"kinopoiskId\": 4008963,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1348084/b32d2b292f0654e1a9e80aac5437a33a/orig\",\n      \"title\": \"Вышла «окончательная версия» порнопеплума «Калигула». Как она сделана и почему нам не понравилась\",\n      \"description\": \"На Blu-ray выходит «окончательная версия» (The Ultimate Cut) «Калигулы» Тинто Брасса. Вспоминаем историю создания кровавого порнопеплума и подробно рассказываем про его редукс, максимально близкий к исходному сценарию Гора Видала. \",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008963\",\n      \"publishedAt\": \"2024-01-15T13:56:48\"\n    },\n    {\n      \"kinopoiskId\": 4008959,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1347825/e73f152e40223d9eee970f6c7ebbe1d3/orig\",\n      \"title\": \"«Солтберн»: барочная комедия наблюдений о классовой борьбе\",\n      \"description\": \"Даулет Жанайдаров и Всеволод Коршунов обсуждают новый фильм Эмиральд Феннел «Солтберн» и разбираются, почему картина вызвала очень полярные реакции и как она показывает классовую борьбу через влюбленность. \",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008959\",\n      \"publishedAt\": \"2024-01-15T14:41:12\"\n    },\n    {\n      \"kinopoiskId\": 4008964,\n      \"imageUrl\": \"https://avatars.mds.yandex.net/get-kinopoisk-post-thumb/1520341/ee781a042f93176fca121a51c865e2d0/orig\",\n      \"title\": \"«Купола, дворцы, ДК»: зачем читать об архитектуре России в 2024 году\",\n      \"description\": \"В издательстве Individuum вышла книга Льва Масиеля Санчеса «Купола. Дворцы. ДК. История и смыслы архитектуры России», первая за многие десятилетия попытка популярно изложить историю архитектуры нашей страны. Ася Зольникова, создательница Telegram-канала «домики», объясняет, почему эта книга актуальна.\",\n      \"url\": \"https://www.kinopoisk.ru/api/webview/post/4008964\",\n      \"publishedAt\": \"2024-01-15T14:53:38\"\n    }\n  ]\n}"
+        }
+      ]
+    },
+    {
+      "name": "Поиск данных о фильме с не валидным id",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "\npm.test(\"Статус код 404. Фильма нет в базе или неверный формат ID\", function () {\n    pm.response.to.have.status(404);\n});\n"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films/1262931/awards",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films",
+            "1262931",
+            "awards"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Поиск данных о фильме по ID",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Статус-код ответа равен 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\n"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films/{{savedKinopoiskId}}",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films",
+            "{{savedKinopoiskId}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получение данных о бюджете и сборах",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Статус-код ответа равен 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-API-KEY",
+            "value": "78bbc602-ff7d-4d49-ba0f-fc444db31987",
+            "disabled": true
+          }
+        ],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films/{{savedKinopoiskId}}/box_office",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films",
+            "{{savedKinopoiskId}}",
+            "box_office"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получение данных о наградах",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получение списка фильмов с пагинацией",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Статус-код ответа равен 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});\r\n\r\nvar key = \"savedKinopoiskId\"\r\nconst responseData = pm.response.json();\r\nconst firstFilmId = responseData.items[1].kinopoiskId;\r\npm.collectionVariables.set(\"savedKinopoiskId\", firstFilmId);\r\n\r\n"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films/collections?type=LOVE_THEME&page=2",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films",
+            "collections"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "LOVE_THEME"
+            },
+            {
+              "key": "page",
+              "value": "2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получение списка фильмов с пагинацией не валидными параметрами",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Method parameter 'type': Failed to convert value of type.Статус-код ответа равен 400\", function () {\r\n    pm.response.to.have.status(400);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films/collections?type=LOVES_THEME&page=1",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films",
+            "collections"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "LOVES_THEME"
+            },
+            {
+              "key": "page",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получить id стран и жанров",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Статус-код ответа равен 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films/filters",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films",
+            "filters"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получить фильмы по жанрам",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Статус-код ответа равен 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.2/films?genres=5",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.2",
+            "films"
+          ],
+          "query": [
+            {
+              "key": "countries",
+              "value": "2",
+              "disabled": true
+            },
+            {
+              "key": "genres",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получить фильмов по ключевым словам",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v2.1/films/search-by-keyword?keyword=\"любовь\"&pag=1",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v2.1",
+            "films",
+            "search-by-keyword"
+          ],
+          "query": [
+            {
+              "key": "keyword",
+              "value": "\"любовь\""
+            },
+            {
+              "key": "pag",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Получить данные об актёре по id",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Статус-код ответа равен 200\", function () {\r\n    pm.response.to.have.status(200);\r\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{BaseURL}}/api/v1/staff/66539",
+          "host": [
+            "{{BaseURL}}"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "staff",
+            "66539"
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": "24100",
+              "disabled": true
+            },
+            {
+              "key": "id",
+              "value": "66539",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "X-API-KEY",
+        "type": "string"
+      },
+      {
+        "key": "value",
+        "value": "78bbc602-ff7d-4d49-ba0f-fc444db31987",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "BaseURL",
+      "value": ""
+    },
+    {
+      "key": "savedKinopoiskId",
+      "value": ""
+    }
+  ]
+}
